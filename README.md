@@ -1,13 +1,13 @@
 # GreenMind
 
-<p align="center"> <img src="images/logo2.jpg" alt="logo" width="300"/></p> 
+<p align="center"> <img src="images/logo2.png" alt="logo" width="300"/></p> 
 
 # Aperçu du Projet
 
 Ce projet vise à développer un outil automatisé pour la détection des maladies des plantes à partir d'images de feuilles. En tirant parti des avancées récentes dans les réseaux de neurones convolutifs (CNN), nous avons conçu un modèle capable de classer avec précision l'état de santé de diverses plantes.
 <p align="center">
-  <img src="images/Test_3.jpg" alt="Aperçu du modèle 1" width="300"/>
-  <img src="images/Test_4.jpg" alt="Aperçu du modèle 2" width="300"/>
+  <img src="images/Test_1.jpg" alt="Aperçu du modèle 1" width="300"/>
+  <img src="images/Test_2.jpg" alt="Aperçu du modèle 2" width="300"/>
 </p>
 
 ## Énoncé du Problème et Objectifs du Projet
@@ -70,12 +70,8 @@ EfficientNet B4 est un modèle optimisé pour offrir un bon compromis entre précis
 
 
 
-### le travail est reforcer par une interface graphique pour l’utilisation facile 
 
-
-
-
-## ?? Installation et Déploiement  
+##  Installation et Déploiement  
 
 ### 1. Cloner le Répertoire  
 ```bash
@@ -106,7 +102,7 @@ Si le conteneur est arrêté, vous pouvez le redémarrer avec :
 docker start my-flask-app
 ```
 
-## ?? Test de l'Application
+##  Test de l'Application
 1. Ajoutez les images que vous souhaitez tester dans le répertoire spécifié précédemment (C:/path/to/your/uploads).
 2. Accédez à l'application via http://localhost:5000 sur votre navigateur.
 
