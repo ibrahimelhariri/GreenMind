@@ -76,7 +76,6 @@ EfficientNet B4 est un modèle optimisé pour offrir un bon compromis entre précis
 ### 1. Cloner le Répertoire  
 ```bash
 git clone https://github.com/ibrahimelhariri/GreenMind.git
-cd GreenMind`
 ```
 ### 2. Télécharger le Modèle
 Dans le répertoire flask-ml-app/models, vous trouverez un fichier model_link.txt.
@@ -84,6 +83,8 @@ Ce fichier contient un lien pour télécharger le modèle. Assurez-vous de placer l
 ### 3. Construire l'Image Docker
 Ouvrez PowerShell ou un terminal et placez-vous à la racine du projet :
 ```bash
+cd GreenMind
+
 docker build -t dl-flask-app .
 ```
 ### 4. Lancer le Conteneur
