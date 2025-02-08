@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  web:
+    build: .
+    ports:
+      - "5000:5000"
+    environment:
+      - FLASK_ENV=production
+    volumes:
+      -  ./flask-ml-app:/flask-ml-app
+      - ./flask-ml-app/static/uploads:/app/static/uploads

@@ -1,0 +1,30 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GreenMind</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="icon" href="{{ url_for('static', filename='images/logo2.png') }}" type="image/png">
+</head>
+
+<body>
+    <a href="/" class="logo-container">
+        <img src="{{ url_for('static', filename='images/logo2.png') }}" alt="GreenMind Logo" class="logo">
+    </a>
+    <div class="container">
+        <h1>Welcome To GreenMind 😄</h1>
+        <div class="upload-container">
+            <div class="drop-zone" id="dropZone">
+                <span class="drop-zone__prompt">Drop image here or click to upload 😃</span>
+                <input type="file" name="file" id="fileInput" class="drop-zone__input">
+            </div>
+            <div class="result-container">
+                <div class="image-preview" id="imagePreview"></div>
+                <div class="result" id="result">
+                    <div class="loader" id="loader"></div>
+                    <div id="predictionResult"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
