@@ -107,4 +107,20 @@ docker start my-flask-app
 1. Ajoutez les images que vous souhaitez tester dans le répertoire spécifié précédemment (C:/path/to/your/uploads).
 2. Accédez à l'application via http://localhost:5000 sur votre navigateur.
 
- 
+
+### example d’interface
+
+
+
+
+ <p align="center">
+  <img src="images/interface.jpg" alt="Aperçu du modèle 1" width="300"/>
+  <img src="images/interface1.jpg" alt="Aperçu du modèle 2" width="300"/>
+<img src="images/interface 2.jpg" alt="Aperçu du modèle 2" width="300"/>
+
+</p>
+
+## Remarque !!!!
+
+Si vous avez besoin des details de projet vous pouvez consultez la Notebook  si joint
+
