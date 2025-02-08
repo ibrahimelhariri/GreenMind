@@ -114,9 +114,9 @@ docker start my-flask-app
 
 
  <p align="center">
-  <img src="images/interface.jpg" alt="Aperçu du modèle 1" width="300"/>
-  <img src="images/interface2.jpg" alt="Aperçu du modèle 2" width="300"/>
-<img src="images/interface 3.jpg" alt="Aperçu du modèle 2" width="300"/>
+  <img src="images/interface.png" alt="Aperçu du modèle 1" width="300"/>
+  <img src="images/interface2.png" alt="Aperçu du modèle 2" width="300"/>
+<img src="images/interface 3.png" alt="Aperçu du modèle 2" width="300"/>
 
 </p>
 
